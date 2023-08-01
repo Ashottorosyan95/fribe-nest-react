@@ -1,0 +1,1 @@
+{"version":3,"file":"health.module.js","sourceRoot":"","sources":["../../../src/health/health.module.ts"],"names":[],"mappings":";;;;;;;;;AAAA,2CAAwC;AACxC,yDAAsD;AACtD,kFAAqF;AAO9E,IAAM,YAAY,0BAAlB,MAAM,YAAY;CAAG,CAAA;uBAAf,YAAY;IALxB,IAAA,eAAM,EAAC;QACJ,SAAS,EAAE,CAAC,8CAAoB,CAAC;QACjC,OAAO,EAAE,CAAC,8CAAoB,CAAC;QAC/B,OAAO,EAAE,CAAC,sBAAS,CAAC;KACvB,CAAC;GACW,YAAY,CAAG"}

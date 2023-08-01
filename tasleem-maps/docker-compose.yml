@@ -1,0 +1,51 @@
+version: '3.8'
+services:
+  auth_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: auth_api
+    hostname: auth_api
+    ports:
+      - 4000:4000
+    env_file:
+      - .env
+    networks:
+      - fribe-auth-app-network
+    restart: always
+    depends_on: 
+      - auth_mongo
+
+  auth_mongo:
+    image: mongo:latest
+    container_name: auth_mongo
+    ports:
+      - 27019:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: fribe_u101
+      MONGO_INITDB_ROOT_PASSWORD: pass_2023map_api101
+      MONGO_INITDB_DATABASE: firbeio
+    env_file:
+      - .env
+    volumes:
+      - firbe_mongo_data:/data/db
+    restart: unless-stopped
+    networks:
+      - fribe-auth-app-network
+
+  redis:
+    image: redis:6.2
+    container_name: fribe_redis
+    env_file:
+      - .env
+    ports:
+      - "6379:6379"
+    restart: always
+    networks:
+      - fribe-auth-app-network
+
+networks:
+  fribe-auth-app-network:
+
+volumes:
+  firbe_mongo_data:

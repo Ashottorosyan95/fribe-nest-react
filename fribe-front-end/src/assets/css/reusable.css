@@ -1,0 +1,349 @@
+/* colors */
+.fribe-text-dark {
+  color: #000000;
+}
+.fribe-primary-text {
+  color: #6e00dc;
+}
+.fribe-secondary-dark-text {
+  color: #454545;
+}
+/* font sizes */
+.fs-12 {
+  font-size: 12px;
+}
+.fs-13 {
+  font-size: 13px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-15 {
+  font-size: 15px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-17 {
+  font-size: 17px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-19 {
+  font-size: 19px;
+}
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-22 {
+  font-size: 22px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+.fs-26 {
+  font-size: 26px;
+}
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-32 {
+  font-size: 32px;
+}
+.fs-34 {
+  font-size: 34px;
+}
+.fs-36 {
+  font-size: 36px;
+}
+.fs-38 {
+  font-size: 38px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+.fs-42 {
+  font-size: 42px;
+}
+.fs-44 {
+  font-size: 44px;
+}
+.fs-46 {
+  font-size: 46px;
+}
+.fs-48 {
+  font-size: 48px;
+}
+
+/* font weights */
+.fw-100 {
+  font-weight: 100;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-900 {
+  font-weight: 900;
+}
+
+@media (min-width: 576px) {
+  /* font sizes */
+  .fs-12-sm {
+    font-size: 12px;
+  }
+  .fs-13-sm {
+    font-size: 13px;
+  }
+  .fs-14-sm {
+    font-size: 14px;
+  }
+  .fs-15-sm {
+    font-size: 15px;
+  }
+  .fs-16-sm {
+    font-size: 16px;
+  }
+  .fs-17-sm {
+    font-size: 17px;
+  }
+  .fs-18-sm {
+    font-size: 18px;
+  }
+  .fs-19-sm {
+    font-size: 19px;
+  }
+  .fs-20-sm {
+    font-size: 20px;
+  }
+
+  .fs-22-sm {
+    font-size: 22px;
+  }
+
+  .fs-24-sm {
+    font-size: 24px;
+  }
+  .fs-26-sm {
+    font-size: 26px;
+  }
+  .fs-28-sm {
+    font-size: 28px;
+  }
+
+  .fs-30-sm {
+    font-size: 30px;
+  }
+
+  .fs-32-sm {
+    font-size: 32px;
+  }
+  .fs-34-sm {
+    font-size: 34px;
+  }
+  .fs-36-sm {
+    font-size: 36px;
+  }
+  .fs-38-sm {
+    font-size: 38px;
+  }
+
+  .fs-40-sm {
+    font-size: 40px;
+  }
+  .fs-42-sm {
+    font-size: 42px;
+  }
+  .fs-44-sm {
+    font-size: 44px;
+  }
+  .fs-46-sm {
+    font-size: 46px;
+  }
+  .fs-48-sm {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 768px) {
+  /* font sizes */
+  .fs-12-md {
+    font-size: 12px;
+  }
+  .fs-13-md {
+    font-size: 13px;
+  }
+  .fs-14-md {
+    font-size: 14px;
+  }
+  .fs-15-md {
+    font-size: 15px;
+  }
+  .fs-16-md {
+    font-size: 16px;
+  }
+  .fs-17-md {
+    font-size: 17px;
+  }
+  .fs-18-md {
+    font-size: 18px;
+  }
+  .fs-19-md {
+    font-size: 19px;
+  }
+  .fs-20-md {
+    font-size: 20px;
+  }
+  .fs-22-md {
+    font-size: 22px;
+  }
+  .fs-24-md {
+    font-size: 24px;
+  }
+  .fs-26-md {
+    font-size: 26px;
+  }
+  .fs-28-md {
+    font-size: 28px;
+  }
+
+  .fs-30 {
+    font-size: 30px;
+  }
+
+  .fs-32-md {
+    font-size: 32px;
+  }
+  .fs-34-md {
+    font-size: 34px;
+  }
+  .fs-36-md {
+    font-size: 36px;
+  }
+  .fs-38-md {
+    font-size: 38px;
+  }
+
+  .fs-40-md {
+    font-size: 40px;
+  }
+  .fs-42-md {
+    font-size: 42px;
+  }
+  .fs-44-md {
+    font-size: 44px;
+  }
+  .fs-46-md {
+    font-size: 46px;
+  }
+  .fs-48-md {
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 992px) {
+  /*  */
+  .fs-12-lg {
+    font-size: 12px;
+  }
+  .fs-13-lg {
+    font-size: 13px;
+  }
+  .fs-14-lg {
+    font-size: 14px;
+  }
+  .fs-15-lg {
+    font-size: 15px;
+  }
+  .fs-16-lg {
+    font-size: 16px;
+  }
+  .fs-17-lg {
+    font-size: 17px;
+  }
+  .fs-18-lg {
+    font-size: 18px;
+  }
+  .fs-19-lg {
+    font-size: 19px;
+  }
+  .fs-20-lg {
+    font-size: 20px;
+  }
+  .fs-21-lg {
+    font-size: 21px;
+  }
+
+  .fs-22-lg {
+    font-size: 22px;
+  }
+
+  .fs-24-lg {
+    font-size: 24px;
+  }
+  .fs-26-lg {
+    font-size: 26px;
+  }
+  .fs-28-lg {
+    font-size: 28px;
+  }
+
+  .fs-30-lg {
+    font-size: 30px;
+  }
+
+  .fs-32-lg {
+    font-size: 32px;
+  }
+  .fs-34-lg {
+    font-size: 34px;
+  }
+  .fs-36-lg {
+    font-size: 36px;
+  }
+  .fs-38-lg {
+    font-size: 38px;
+  }
+
+  .fs-40-lg {
+    font-size: 40px;
+  }
+  .fs-42-lg {
+    font-size: 42px;
+  }
+  .fs-44-lg {
+    font-size: 44px;
+  }
+  .fs-46-lg {
+    font-size: 46px;
+  }
+  .fs-48-lg {
+    font-size: 48px;
+  }
+}

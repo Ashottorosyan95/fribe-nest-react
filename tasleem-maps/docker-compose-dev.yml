@@ -1,0 +1,43 @@
+# to run in development use this command 
+# `` sudo docker-compose -f docker-compose-dev.yml up --build ``
+
+version: '3.8'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.dev
+    container_name: app
+    hostname: app
+    ports:
+      - 3000:3000
+    networks:
+      - fribe-app-network
+    volumes:
+      - ./src/:/app/src/
+      - .env/:/app/.env
+      - /app/node_modules
+    restart: always
+    depends_on: 
+      - mongo
+
+  mongo:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: 123456
+      MONGO_INITDB_DATABASE: firbe_maps
+    volumes:
+      - fribe_dbdata:/data/db
+    restart: unless-stopped
+    networks:
+      - fribe-app-network
+
+networks:
+  fribe-app-network:
+
+volumes:
+  fribe_dbdata:

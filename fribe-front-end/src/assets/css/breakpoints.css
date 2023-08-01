@@ -1,0 +1,83 @@
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .siebar-canvas-btn {
+    display: none;
+  }
+  .app-container {
+    padding-left: 240px;
+    padding-top: 85px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .registration-form-web-name {
+    display: none;
+  }
+}
+
+@media (min-width: 1400px) {
+}
+
+@media (max-width: 1399px) {
+  .web-name-text-large div {
+    font-size: 55px;
+  }
+  .account-signup-text {
+    font-size: 35px;
+  }
+  .privacy-text {
+    font-size: 24px;
+  }
+  .dev-intro-name {
+    font-size: 20px;
+    width: 510px;
+  }
+  .dev-intro-name span:last-child {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .half-width-intro-container {
+    display: none;
+  }
+  .registration-form-container {
+    width: 100%;
+  }
+  .primary-form-card {
+    margin: 30px 0 50px 0;
+  }
+  .registration-form-web-name img {
+    width: 120px;
+  }
+}
+
+@media (max-width: 991px) {
+  .sidebar-nav-wrapper {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 575px) {
+  .registration-form-container-layout {
+    padding: 10px;
+  }
+  .header-bar {
+    padding: 10px;
+  }
+  .app-container {
+    padding: 10px;
+    padding-top: 70px;
+  }
+  .api-key {
+    padding: 10px 0 0 0;
+  }
+}

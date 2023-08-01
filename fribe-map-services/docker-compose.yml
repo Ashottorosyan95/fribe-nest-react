@@ -1,0 +1,42 @@
+version: '3.8'
+
+
+services:
+  map_api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: map_api
+    hostname: map_api
+    ports:
+      - 3000:3000
+    env_file:
+      - .env
+    restart: always
+    networks:
+      - fribe-auth-app-network
+    depends_on: 
+      - map_mongo
+
+  map_mongo:
+    image: mongo:latest
+    container_name: map_mongo
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: fribe_u101
+      MONGO_INITDB_ROOT_PASSWORD: pass_2023map_api101
+      MONGO_INITDB_DATABASE: firbe_maps
+    volumes:
+      - firbe_map_mongo_data:/data/db
+    restart: unless-stopped
+    networks:
+      - fribe-auth-app-network
+
+networks:
+  fribe-auth-app-network:
+    external:
+      name: auth-service_fribe-auth-app-network
+
+volumes:
+  firbe_map_mongo_data:
